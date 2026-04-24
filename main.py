@@ -5,7 +5,7 @@ import pyttsx3 as pt   # pyhton text to speech
 # model = GPT4All("A:\\gpt4all\\Meta-Llama-3.1-8B-Instruct-128k-Q4_0.gguf", device='nvidia')   # to load a model
 model = GPT4All(r"A:\gpt4all\mistral-7b-instruct-v0.1.Q4_0.gguf", device='nvidia')   # to load a model
 
-def speak_text(n):    #    for voice
+def speak_text(n):    #    for text to voice
     engine = pt.init()   # initialize TTS engine
     rate = engine.getProperty('rate')
     engine.setProperty('rate', rate - 70)  
