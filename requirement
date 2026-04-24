@@ -1,0 +1,11 @@
+# pip install pytorch
+# peechRecognitation
+# pyttsx3
+# torch
+# transformers
+# pip install torchao
+# llama-cpp-python
+# pip install huggingface_hub
+# pip install -U transformers bitsandbytes
+#  https://gpt4all.io for gpt4all
+pip install gpt4all
